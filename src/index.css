@@ -1,13 +1,35 @@
+/* @font-face {
+  font-family: "Open-Sans-regular";
+  src: local("Open-Sans-regular"),
+    url(./style/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf)
+      format("ttf");
+}
+
+@font-face {
+  font-family: "Open-Sans-light";
+  src: local("Open-Sans-light"),
+    url(./style/fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf)
+      format("ttf");
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
